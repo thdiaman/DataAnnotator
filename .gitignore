@@ -117,6 +117,7 @@ venv.bak/
 # Eclipse project settings
 .pydevproject
 .project
+.settings
 
 # Rope project settings
 .ropeproject
