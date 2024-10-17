@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+	<title>Data Annotator</title>
+	<link href="{{ url_for('static', filename='code.css') }}" rel="stylesheet" type="text/css">
+	<script>
+	function submitthis(thisform){
+		thisform.submit();
+	};
+	document.addEventListener("keydown", function(event) {
+		var key = event.keyCode;
+		if (key == 37) { // left
+			document.getElementById("leftarrow").click();
+		}
+		else if (key == 39) { // right
+			document.getElementById("rightarrow").click();
+		}
+	});
+	document.addEventListener("keypress", function(event) {
+		var key = event.keyCode;
+		if ((key >= 48 && key <=57) || (key >= 96 && key <= 105)) {
+			var numvalue = String.fromCharCode((96 <= key && key <= 105) ? key - 48 : key);
+			document.getElementById("annot_select").value = numvalue;
+			submitthis(document.getElementById("annot_form"));
+		}
+	});
+</script>
+</head>
+<body style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 16px;'>
+	<div style="text-align: center; background-color: lightgray; padding: 10px;">
+		<form class="form-inline" method="POST" action="{{ url_for('index') }}">
+		<div class="form-group">
+			<div class="input-group">
+				<input id="leftarrow" type ="submit" name="action" value="<" style="padding: 6; font-size: 15px;">
+				<select name="comp_select" class="selectpicker form-control" onchange="this.form.submit();" style="padding: 6; font-size: 15px;">
+					{% for afileid in files %}
+					<option value="{{ afileid }}" {% if currentid == afileid %}selected{% endif %}>{{ afileid }}</option>
+					{% endfor %}
+				</select>
+				<input id="rightarrow" type="submit" name="action" value=">" style="padding: 6; font-size: 15px;">
+			</div>
+		</div>
+		</form>
+	</div>
+
+	{% set afile = files[currentid] %}
+
+	<div style="text-align: center; background-color: darkgray; padding: 10px;">
+		<form id="annot_form" class="form-inline" method="POST" action="{{ url_for('index') }}">
+		<div class="form-group">
+			<div class="input-group">
+				{% set currentannotationclass = annotations["annotations"][currentid] %}
+				{% set currentannotationclassname = annotations["classes"][currentannotationclass] %}
+				<span style="font-weight: bold;">Current category: </span>
+				<span>{{currentannotationclass + " (" + currentannotationclassname + ")"}}</span>
+				<span style="margin-left: 8px; margin-right: 8px;"> &ndash; </span>
+				<span style="font-weight: bold;">Select new category: </span>
+
+				<input name="comp_select" value="{{currentid}}" style="display: none;">
+				<select id="annot_select" name="ann_select" class="selectpicker form-control" onchange="submitthis(this.form);" style="padding: 6; font-size: 15px;">
+					{% for annotationclass in annotations["classes"] %}
+						{% set annotationclassname = annotations["classes"][annotationclass] %}
+						{% if currentannotationclass == annotationclass %}
+							<option value="{{annotationclass}}" selected>{{annotationclass}} ({{annotationclassname}})</option>
+						{% else %}
+							<option value="{{annotationclass}}">{{annotationclass}} ({{annotationclassname}})</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+
+			</div>
+		</div>
+		</form>
+	</div>
+
+	<div style="margin: 10px;">
+		{% for key, value in afile.items() %}
+		<span style="font-weight: bold;">{{ key | safe }}: </span>
+		<span>{{ value | safe }}</span>
+		<br/>
+		{% endfor %}
+	</div>
+</body>
