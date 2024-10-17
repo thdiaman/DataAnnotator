@@ -14,6 +14,8 @@ lex = lexers.get_lexer_by_name("java")
 def parse_value(value, valuetype):
 	if valuetype == "CODE":
 		return highlight(value, lex, formatter)
+	elif valuetype == "URL":
+		return "<a href=\"" + value + "\" target=\"_blank\">" + value + "</a>"
 	else:
 		return value
 
