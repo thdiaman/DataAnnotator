@@ -29,7 +29,7 @@
 </script>
 </head>
 <body style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 16px;'>
-	<div style="text-align: center; background-color: lightgray; padding: 10px;">
+	<div style="text-align: center; background-color: darkgray; padding: 10px;">
 		<form class="form-inline" method="POST" action="{{ url_for('index') }}">
 		<div class="form-group">
 			<div class="input-group">
@@ -47,7 +47,7 @@
 
 	{% set afile = files[currentid] %}
 
-	<div style="text-align: center; background-color: darkgray; padding: 10px;">
+	<div style="text-align: center; background-color: lightgray; padding: 10px;">
 		<form id="annot_form" class="form-inline" method="POST" action="{{ url_for('index') }}">
 		<div class="form-group">
 			<div class="input-group">
