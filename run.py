@@ -1,9 +1,8 @@
 import os
 import json
-#import codecs
 from flask import Flask, render_template, request
 from pygments import lexers, highlight
-from pygments.formatters import HtmlFormatter  # @UnresolvedImport
+from pygments.formatters import HtmlFormatter
 from properties import datapath, nextpage
 formatter = HtmlFormatter()
 lex = lexers.get_lexer_by_name("java")
