@@ -1,0 +1,16 @@
+{
+   "classes": {
+      "1": "New feature",
+      "2": "Improvement",
+      "3": "Documentation",
+      "4": "Bug fix",
+      "0": "Non-annotated"
+   },
+   "annotations": {
+      "39e82f7eeb03460648498b3a6d03715fac3fc298": "3",
+      "545153e0d204824458822571a4084ea3cc0860ff": "2",
+      "7177690960106ba4c23ceb7885b8828e7e60cba6": "1",
+      "7ee08a617a9c0faaf87b44169c9ed7aace0c9753": "2",
+      "adf8185ef4abb51cc862e3c3f2ffe98e0bd6730e": "4"
+   }
+}

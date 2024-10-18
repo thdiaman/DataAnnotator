@@ -1,0 +1,100 @@
+{
+  "sha": "b019bdd420fbb530eee17f379e024c8b9da360b3",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6YjAxOWJkZDQyMGZiYjUzMGVlZTE3ZjM3OWUwMjRjOGI5ZGEzNjBiMw==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2015-12-20T16:45:24Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2015-12-20T16:45:24Z"
+    },
+    "message": "Fixed formatting",
+    "tree": {
+      "sha": "4c8cedf8738b5d4a68cdc1e01310139a029929a4",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/4c8cedf8738b5d4a68cdc1e01310139a029929a4"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/b019bdd420fbb530eee17f379e024c8b9da360b3",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/b019bdd420fbb530eee17f379e024c8b9da360b3",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/b019bdd420fbb530eee17f379e024c8b9da360b3",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/b019bdd420fbb530eee17f379e024c8b9da360b3/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "d606ad196b5cb2a91b4a70dea1d63c78cd255459",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/d606ad196b5cb2a91b4a70dea1d63c78cd255459",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/d606ad196b5cb2a91b4a70dea1d63c78cd255459"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "additions": 3,
+    "deletions": 2
+  },
+  "files": [
+    {
+      "sha": "b6ceec478236e8dcdb54e1da66c9eb937d55dce5",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "changes": 5,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/b019bdd420fbb530eee17f379e024c8b9da360b3/README.md",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/b019bdd420fbb530eee17f379e024c8b9da360b3/README.md",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/README.md?ref=b019bdd420fbb530eee17f379e024c8b9da360b3",
+      "patch": "@@ -61,8 +61,9 @@ After that, you can use it as follows:\n \t\t\t\"}\\n\"\r\n \t)</code></pre>\r\n If JSON is required as the output representation then use these functions with a second string\r\n-argument that can be either <code>\"XML\"</code> or <code>\"JSON\"</code>. Note that after using\r\n-the library, you have to close the ASTExtractor object using function <code>close</code>, i.e.:<pre><code>ast_extractor.close()</code></pre>\r\n+argument that can be either <code>\"XML\"</code> or <code>\"JSON\"</code>.\r\n+\r\n+Note that after using the library, you have to close the ASTExtractor object using function <code>close</code>, i.e.:<pre><code>ast_extractor.close()</code></pre>\r\n \r\n Controlling the output\r\n ----------------------\r"
+    }
+  ]
+}

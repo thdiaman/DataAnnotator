@@ -1,0 +1,100 @@
+{
+  "sha": "39e82f7eeb03460648498b3a6d03715fac3fc298",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6MzllODJmN2VlYjAzNDYwNjQ4NDk4YjNhNmQwMzcxNWZhYzNmYzI5OA==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2015-12-20T16:41:10Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2015-12-20T16:41:10Z"
+    },
+    "message": "Added description for using the python binding",
+    "tree": {
+      "sha": "6049847a25ea2dd518848c48695f59c52e80a421",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/6049847a25ea2dd518848c48695f59c52e80a421"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/39e82f7eeb03460648498b3a6d03715fac3fc298",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/39e82f7eeb03460648498b3a6d03715fac3fc298",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/39e82f7eeb03460648498b3a6d03715fac3fc298",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/39e82f7eeb03460648498b3a6d03715fac3fc298/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f"
+    }
+  ],
+  "stats": {
+    "total": 33,
+    "additions": 31,
+    "deletions": 2
+  },
+  "files": [
+    {
+      "sha": "cd7f5c8e9bdb0e2f4aa65f1129bc09458ab9f78a",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 2,
+      "changes": 33,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/39e82f7eeb03460648498b3a6d03715fac3fc298/README.md",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/39e82f7eeb03460648498b3a6d03715fac3fc298/README.md",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/README.md?ref=39e82f7eeb03460648498b3a6d03715fac3fc298",
+      "patch": "@@ -33,13 +33,42 @@ Import the library in your code. Then, you can use it as follows:\n \t\t\t + \"\t}\"\r\n \t\t\t + \"}\"\r\n \t\t\t );</code></pre>\r\n-If JSON is required as the output representation then use these functions with a second string argument that can be either <code>\"XML\"</code> or <code>\"JSON\"</code>\r\n+If JSON is required as the output representation then use these functions with a second string\r\n+argument that can be either <code>\"XML\"</code> or <code>\"JSON\"</code>.\r\n+\r\n+Using in Python\r\n+---------------\r\n+ASTExtractor also has python bindings. Using the python wrapper is simple. At first, the library\r\n+has to be imported and the ASTExtractor object has to be initialized given the path to the jar\r\n+of the library:<pre><code>ast_extractor = ASTExtractor(\"path/to/ASTExtractor.jar\")</code></pre>.\r\n+After that, you can use it as follows:\r\n+- For folders containing java files:<pre><code>ast = ast_extractor.parse_folder(\"path/to/folder/\");</code></pre>\r\n+- For java files:<pre><code>ast = ast_extractor.parse_file(\"path/to/file.java\");</code></pre>\r\n+- For contents of java files (i.e. strings):\r\n+<pre><code>ast = ast_extractor.parse_string(\r\n+\t\t\t\"import org.myclassimports;\\n\" + \r\n+\t\t\t\"\\n\" + \r\n+\t\t\t\"public class MyClass {\\n\" + \r\n+\t\t\t\"   private int myvar;\\n\" + \r\n+\t\t\t\"\\n\" + \r\n+\t\t\t\"   public MyClass(int myvar) {\\n\" + \r\n+\t\t\t\"      this.myvar = myvar;\\n\" + \r\n+\t\t\t\"   }\\n\" + \r\n+\t\t\t\"\\n\" + \r\n+\t\t\t\"   public void getMyvar() {\\n\" + \r\n+\t\t\t\"      return myvar;\\n\" + \r\n+\t\t\t\"   }\\n\" + \r\n+\t\t\t\"}\\n\"\r\n+\t)</code></pre>\r\n+If JSON is required as the output representation then use these functions with a second string\r\n+argument that can be either <code>\"XML\"</code> or <code>\"JSON\"</code>.\r\n \r\n Controlling the output\r\n ----------------------\r\n An Abstract Syntax Tree can be very complex, including details for every identifier of the code.\r\n In ASTExtractor, the complexity of the tree can be controlled using the ASTExtractor.properties\r\n-file that must reside in the same folder as the ASTExtractor.jar. In this file, the user can select the nodes that should not appear in the final tree (<code>OMIT</code>) and the nods that\r\n+file that must reside in the same folder as the ASTExtractor.jar. In this file, the user can\r\n+select the nodes that should not appear in the final tree (<code>OMIT</code>) and the nodes that\r\n should not be analyzed further, i.e. that should be forced to be leaf nodes (<code>LEAF</code>)\r\n The default options are shown in the following example ASTExtractor.properties file:\r\n <pre><code>LEAF = PackageDeclaration, ImportDeclaration, ParameterizedType, ArrayType, VariableDeclarationFragment\r"
+    }
+  ]
+}

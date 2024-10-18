@@ -1,0 +1,100 @@
+{
+  "sha": "d36170be644948f660f2450bc203a771587f0a80",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6ZDM2MTcwYmU2NDQ5NDhmNjYwZjI0NTBiYzIwM2E3NzE1ODdmMGE4MA==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-08-17T13:21:03Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-08-17T13:21:03Z"
+    },
+    "message": "Update Eclipse libraries",
+    "tree": {
+      "sha": "7c80ee67addcedf529fa144f34150c39d08dddbc",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/7c80ee67addcedf529fa144f34150c39d08dddbc"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/d36170be644948f660f2450bc203a771587f0a80",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/d36170be644948f660f2450bc203a771587f0a80",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/d36170be644948f660f2450bc203a771587f0a80",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/d36170be644948f660f2450bc203a771587f0a80/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "adf8185ef4abb51cc862e3c3f2ffe98e0bd6730e",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/adf8185ef4abb51cc862e3c3f2ffe98e0bd6730e",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/adf8185ef4abb51cc862e3c3f2ffe98e0bd6730e"
+    }
+  ],
+  "stats": {
+    "total": 16,
+    "additions": 13,
+    "deletions": 3
+  },
+  "files": [
+    {
+      "sha": "8b5957e2e9140c4ab18a8df524e3744aa508ad74",
+      "filename": "pom.xml",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "changes": 16,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/d36170be644948f660f2450bc203a771587f0a80/pom.xml",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/d36170be644948f660f2450bc203a771587f0a80/pom.xml",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/pom.xml?ref=d36170be644948f660f2450bc203a771587f0a80",
+      "patch": "@@ -13,9 +13,19 @@\n \r\n \t<dependencies>\r\n \t\t<dependency>\r\n-\t\t\t<groupId>org.eclipse.jdt</groupId>\r\n-\t\t\t<artifactId>core</artifactId>\r\n-\t\t\t<version>3.3.0-v_771</version>\r\n+\t\t\t<groupId>org.eclipse.tycho</groupId>\r\n+\t\t\t<artifactId>org.eclipse.jdt.core</artifactId>\r\n+\t\t\t<version>3.12.0.v20160516-2131</version>\r\n+\t\t</dependency>\r\n+\t\t<dependency>\r\n+\t\t\t<groupId>org.eclipse.core</groupId>\r\n+\t\t\t<artifactId>runtime</artifactId>\r\n+\t\t\t<version>3.10.0-v20140318-2214</version>\r\n+\t\t</dependency>\r\n+\t\t<dependency>\r\n+\t\t\t<groupId>org.eclipse.birt.runtime</groupId>\r\n+\t\t\t<artifactId>org.eclipse.core.resources</artifactId>\r\n+\t\t\t<version>3.10.0.v20150423-0755</version>\r\n \t\t</dependency>\r\n \t\t<dependency>\r\n \t\t\t<groupId>org.json</groupId>\r"
+    }
+  ]
+}

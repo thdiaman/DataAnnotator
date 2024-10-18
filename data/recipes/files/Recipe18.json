@@ -1,0 +1,16 @@
+{
+   "id": "Recipe18",
+   "title": "Meat Pie",
+   "directions": [
+      "Preheat oven to 200 degrees. In a skillet, cook beef with oil, salt, and pepper until browned (about 20 minutes).",
+      "Roll out pie crust and place in a pie dish. Fill with the cooked meat mixture, then cover.",
+      "Bake for 25-30 minutes until golden. Cool slightly before slicing."
+   ],
+   "ingredients": [
+      "500g ground beef",
+      "1 tablespoon oil",
+      "1 teaspoon salt",
+      "1/2 teaspoon black pepper",
+      "1 pie crust"
+   ]
+}

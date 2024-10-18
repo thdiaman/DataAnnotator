@@ -1,0 +1,112 @@
+{
+  "sha": "f87394356169409df654e1ae834843863bec9e36",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6Zjg3Mzk0MzU2MTY5NDA5ZGY2NTRlMWFlODM0ODQzODYzYmVjOWUzNg==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-04-05T13:02:29Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-04-05T13:02:29Z"
+    },
+    "message": "Update to have the properties file in the same location as the jar file",
+    "tree": {
+      "sha": "0444a77ebcaf2da8e7332f357750d0d508ca42c2",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/0444a77ebcaf2da8e7332f357750d0d508ca42c2"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/f87394356169409df654e1ae834843863bec9e36",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/f87394356169409df654e1ae834843863bec9e36",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/f87394356169409df654e1ae834843863bec9e36",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/f87394356169409df654e1ae834843863bec9e36/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "b019bdd420fbb530eee17f379e024c8b9da360b3",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/b019bdd420fbb530eee17f379e024c8b9da360b3",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/b019bdd420fbb530eee17f379e024c8b9da360b3"
+    }
+  ],
+  "stats": {
+    "total": 27,
+    "additions": 26,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "13a5686a3f264e815fee9e63016dbf77f1bb1201",
+      "filename": "src/astparser/JavaASTParser.java",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/f87394356169409df654e1ae834843863bec9e36/src%2Fastparser%2FJavaASTParser.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/f87394356169409df654e1ae834843863bec9e36/src%2Fastparser%2FJavaASTParser.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastparser%2FJavaASTParser.java?ref=f87394356169409df654e1ae834843863bec9e36",
+      "patch": "@@ -31,7 +31,8 @@ public class JavaASTParser {\n \tprivate static HashSet<String> OMIT = new HashSet<String>();\r\n \r\n \tstatic {\r\n-\t\tfor (String rule : ParseHelpers.parseProperties(\"ASTExtractor.properties\")) {\r\n+\t\tfor (String rule : ParseHelpers\r\n+\t\t\t\t.parseProperties(ParseHelpers.getPropertiesFileLocation(\"ASTExtractor.properties\"))) {\r\n \t\t\tString[] srule = rule.split(\"=\");\r\n \t\t\tif (srule[1].equals(\"LEAF\"))\r\n \t\t\t\tLEAF.add(srule[0]);\r"
+    },
+    {
+      "sha": "ddcba5e831de581ab2a5a6b88fb21194bb4fea2c",
+      "filename": "src/helpers/ParseHelpers.java",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "changes": 24,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/f87394356169409df654e1ae834843863bec9e36/src%2Fhelpers%2FParseHelpers.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/f87394356169409df654e1ae834843863bec9e36/src%2Fhelpers%2FParseHelpers.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fhelpers%2FParseHelpers.java?ref=f87394356169409df654e1ae834843863bec9e36",
+      "patch": "@@ -1,9 +1,13 @@\n package helpers;\r\n \r\n import java.io.File;\r\n+import java.net.URI;\r\n+import java.net.URISyntaxException;\r\n import java.util.ArrayList;\r\n import java.util.List;\r\n \r\n+import astparser.JavaASTParser;\r\n+\r\n /**\r\n  * Helper functions for parsing arguments or properties files.\r\n  * \r\n@@ -61,6 +65,26 @@ else if (srepr)\n \t\treturn new String[] { project.trim(), file.trim(), repr.trim().toUpperCase() };\r\n \t}\r\n \r\n+\t/**\r\n+\t * Returns the location of the properties file.\r\n+\t * \r\n+\t * @param filename the filename of the properties file.\r\n+\t * @return the absolute path of the properties file.\r\n+\t */\r\n+\tpublic static String getPropertiesFileLocation(String filename) {\r\n+\t\tURI propertiesFile = null;\r\n+\t\ttry {\r\n+\t\t\tpropertiesFile = JavaASTParser.class.getProtectionDomain().getCodeSource().getLocation().toURI()\r\n+\t\t\t\t\t.resolve(filename);\r\n+\t\t} catch (URISyntaxException e) {\r\n+\t\t\te.printStackTrace();\r\n+\t\t}\r\n+\t\tif (propertiesFile != null && new File(propertiesFile.getPath()).exists())\r\n+\t\t\treturn propertiesFile.getPath();\r\n+\t\telse\r\n+\t\t\treturn filename;\r\n+\t}\r\n+\r\n \t/**\r\n \t * Parses a properties file with the OMIT and ASIS types of nodes.\r\n \t * \r"
+    }
+  ]
+}

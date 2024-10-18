@@ -1,0 +1,6 @@
+{
+   "id": "ID",
+   "title": "STRING",
+   "directions": ["STRING"],
+   "ingredients": ["STRING"]
+}

@@ -1,0 +1,13 @@
+{
+   "classes": {
+      "1": "Dog",
+      "2": "Cat",
+      "0": "Non-annotated"
+   },
+   "annotations": {
+      "./data/images/image1.png": "1",
+      "./data/images/image3.png": "2",
+      "./data/images/image4.png": "2",
+      "./data/images/image7.png": "1"
+   }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<id>Recipe15</id>
+	<title>Chocolate Meringue</title>
+	<directions>Preheat oven to 150 degrees.</directions>
+	<directions>In a bowl, beat 4 egg whites and 1/4 tsp salt. Add 1 cup sugar and fold in 2 tbsp cocoa powder.</directions>
+	<directions>Spread on parchment paper in a circle. Bake for 1 hour until crispy. Cool and optionally add heavy cream</directions>
+	<ingredients>4 egg whites</ingredients>
+	<ingredients>1/4 tsp salt</ingredients>
+	<ingredients>1 cup sugar</ingredients>
+	<ingredients>2 tbsp cocoa powder</ingredients>
+	<ingredients>1 cup heavy cream</ingredients>
+</root>

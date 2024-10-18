@@ -1,0 +1,112 @@
+{
+  "sha": "011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6MDExYjgzY2FhZGRhMTM2MWMwOTI3YjE0MzJiYjNhZTNkNWZiNGFkMw==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-04-07T13:15:33Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-04-07T13:15:33Z"
+    },
+    "message": "Added newlines to example snippets to avoid issues with line comments",
+    "tree": {
+      "sha": "e4e22ac69ef58c3f150be205c9dceb72eceb093f",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/e4e22ac69ef58c3f150be205c9dceb72eceb093f"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/011b83caadda1361c0927b1432bb3ae3d5fb4ad3/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "f87394356169409df654e1ae834843863bec9e36",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/f87394356169409df654e1ae834843863bec9e36",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/f87394356169409df654e1ae834843863bec9e36"
+    }
+  ],
+  "stats": {
+    "total": 48,
+    "additions": 24,
+    "deletions": 24
+  },
+  "files": [
+    {
+      "sha": "7a6ab5b9fef774c1ea90e02e1aabe7502ca2c220",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 13,
+      "changes": 26,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/011b83caadda1361c0927b1432bb3ae3d5fb4ad3/README.md",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/011b83caadda1361c0927b1432bb3ae3d5fb4ad3/README.md",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/README.md?ref=011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+      "patch": "@@ -19,19 +19,19 @@ Import the library in your code. Then, you can use it as follows:\n - For java files:<pre><code>String ast = ASTExtractor.parseFile(\"path/to/file.java\");</code></pre>\r\n - For contents of java files (i.e. strings):\r\n <pre><code>String ast = ASTExtractor.parseString(\"\"\r\n-\t\t\t + \"import org.myclassimports;\"\r\n-\t\t\t + \"\"\r\n-\t\t\t + \"public class MyClass {\"\r\n-\t\t\t + \"\tprivate int myvar;\"\r\n-\t\t\t + \"\"\r\n-\t\t\t + \"\tpublic MyClass(int myvar) {\"\r\n-\t\t\t + \"\t\tthis.myvar = myvar;\"\r\n-\t\t\t + \"\t}\"\r\n-\t\t\t + \"\"\r\n-\t\t\t + \"\tpublic void getMyvar() {\"\r\n-\t\t\t + \"\t\treturn myvar;\"\r\n-\t\t\t + \"\t}\"\r\n-\t\t\t + \"}\"\r\n+\t\t\t + \"import org.myclassimports;\\n\"\r\n+\t\t\t + \"\\n\"\r\n+\t\t\t + \"public class MyClass {\\n\"\r\n+\t\t\t + \"\tprivate int myvar;\\n\"\r\n+\t\t\t + \"\\n\"\r\n+\t\t\t + \"\tpublic MyClass(int myvar) {\\n\"\r\n+\t\t\t + \"\t\tthis.myvar = myvar;\\n\"\r\n+\t\t\t + \"\t}\\n\"\r\n+\t\t\t + \"\\n\"\r\n+\t\t\t + \"\tpublic void getMyvar() {\\n\"\r\n+\t\t\t + \"\t\treturn myvar;\\n\"\r\n+\t\t\t + \"\t}\\n\"\r\n+\t\t\t + \"}\\n\"\r\n \t\t\t );</code></pre>\r\n If JSON is required as the output representation then use these functions with a second string\r\n argument that can be either <code>\"XML\"</code> or <code>\"JSON\"</code>.\r"
+    },
+    {
+      "sha": "aae29eb4b66e58e8d658856d31b113640560f0c1",
+      "filename": "src/astextractor/ASTExtractorTest.java",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 11,
+      "changes": 22,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/011b83caadda1361c0927b1432bb3ae3d5fb4ad3/src%2Fastextractor%2FASTExtractorTest.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/011b83caadda1361c0927b1432bb3ae3d5fb4ad3/src%2Fastextractor%2FASTExtractorTest.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastextractor%2FASTExtractorTest.java?ref=011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+      "patch": "@@ -17,19 +17,19 @@ public class ASTExtractorTest {\n \tpublic static void main(String[] args) {\n \t\t// @formatter:off\n \t\tString ast = ASTExtractor.parseString(\"\"\n-\t\t         + \"import org.myclassimports;\"\n+\t\t         + \"import org.myclassimports;\\n\"\n \t\t         + \"\"\n-\t\t         + \"public class MyClass {\"\n-\t\t         + \"    private int myvar;\"\n+\t\t         + \"public class MyClass {\\n\"\n+\t\t         + \"    private int myvar;\\n\"\n+\t\t         + \"\\n\"\n+\t\t         + \"    public MyClass(int myvar) {\\n\"\n+\t\t         + \"        this.myvar = myvar;\\n\"\n+\t\t         + \"    }\\n\"\n \t\t         + \"\"\n-\t\t         + \"    public MyClass(int myvar) {\"\n-\t\t         + \"        this.myvar = myvar;\"\n-\t\t         + \"    }\"\n-\t\t         + \"\"\n-\t\t         + \"    public void getMyvar() {\"\n-\t\t         + \"        return myvar;\"\n-\t\t         + \"    }\"\n-\t\t         + \"}\"\n+\t\t         + \"    public void getMyvar() {\\n\"\n+\t\t         + \"        return myvar;\\n\"\n+\t\t         + \"    }\\n\"\n+\t\t         + \"}\\n\"\n \t\t         );\n \t\t// @formatter:on\n \t\tSystem.out.println(ast);"
+    }
+  ]
+}

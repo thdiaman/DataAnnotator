@@ -1,0 +1,100 @@
+{
+  "sha": "a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6YTcyMTk0ZjRkYzAxNjE0ZjNmNWJkM2VjMmFlM2FlZmUxZGY2NWM4Zg==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2015-12-19T10:21:27Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2015-12-19T10:21:27Z"
+    },
+    "message": "Updated gitignore to support python",
+    "tree": {
+      "sha": "1e61cbac04c1ac381e64d0af293ea55b6a91e5fc",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/1e61cbac04c1ac381e64d0af293ea55b6a91e5fc"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "545153e0d204824458822571a4084ea3cc0860ff",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/545153e0d204824458822571a4084ea3cc0860ff",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/545153e0d204824458822571a4084ea3cc0860ff"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "additions": 3,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "f416d179ca5238c7e47e3cf43630cd800326a62a",
+      "filename": ".gitignore",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": 4,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f/.gitignore",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f/.gitignore",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/.gitignore?ref=a72194f4dc01614f3f5bd3ec2ae3aefe1df65c8f",
+      "patch": "@@ -2,7 +2,9 @@ bin/\n dist/\r\n target/\r\n .project\r\n-.pydevproject\r\n .classpath\r\n .settings\r\n *.class\r\n+.pydevproject\r\n+__pycache__\r\n+*.pyc\r"
+    }
+  ]
+}

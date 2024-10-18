@@ -1,0 +1,14 @@
+{
+   "sha": "ID",
+   "html_url": "URL",
+   "commit": {
+      "message": "STRING"
+   },
+   "files": [{
+      "filename": "STRING",
+      "additions": "NUMBER",
+      "deletions": "NUMBER",
+      "changes": "NUMBER",
+      "patch": "CODE"
+   }]
+}

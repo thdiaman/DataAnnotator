@@ -1,0 +1,196 @@
+{
+  "sha": "7177690960106ba4c23ceb7885b8828e7e60cba6",
+  "node_id": "MDY6Q29tbWl0NDY2NjYzNTU6NzE3NzY5MDk2MDEwNmJhNGMyM2NlYjc4ODViODgyOGU3ZTYwY2JhNg==",
+  "commit": {
+    "author": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-06-21T12:38:19Z"
+    },
+    "committer": {
+      "name": "thdiaman",
+      "email": "themisdiamantopoulos@hotmail.com",
+      "date": "2016-06-21T12:38:19Z"
+    },
+    "message": "Added support for providing the properties file location as an argument",
+    "tree": {
+      "sha": "7033d20420272b7fe008d096b543c1e18ef27dc3",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/trees/7033d20420272b7fe008d096b543c1e18ef27dc3"
+    },
+    "url": "https://api.github.com/repos/thdiaman/ASTExtractor/git/commits/7177690960106ba4c23ceb7885b8828e7e60cba6",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/7177690960106ba4c23ceb7885b8828e7e60cba6",
+  "html_url": "https://github.com/thdiaman/ASTExtractor/commit/7177690960106ba4c23ceb7885b8828e7e60cba6",
+  "comments_url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/7177690960106ba4c23ceb7885b8828e7e60cba6/comments",
+  "author": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "thdiaman",
+    "id": 1620264,
+    "node_id": "MDQ6VXNlcjE2MjAyNjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1620264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thdiaman",
+    "html_url": "https://github.com/thdiaman",
+    "followers_url": "https://api.github.com/users/thdiaman/followers",
+    "following_url": "https://api.github.com/users/thdiaman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thdiaman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thdiaman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thdiaman/subscriptions",
+    "organizations_url": "https://api.github.com/users/thdiaman/orgs",
+    "repos_url": "https://api.github.com/users/thdiaman/repos",
+    "events_url": "https://api.github.com/users/thdiaman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thdiaman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+      "url": "https://api.github.com/repos/thdiaman/ASTExtractor/commits/011b83caadda1361c0927b1432bb3ae3d5fb4ad3",
+      "html_url": "https://github.com/thdiaman/ASTExtractor/commit/011b83caadda1361c0927b1432bb3ae3d5fb4ad3"
+    }
+  ],
+  "stats": {
+    "total": 167,
+    "additions": 94,
+    "deletions": 73
+  },
+  "files": [
+    {
+      "sha": "efa33cb7b65d05b306cde94fcc6076abb736f62b",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8,
+      "changes": 18,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/README.md",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/README.md",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/README.md?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -8,13 +8,15 @@ The documentation is available at [http://thdiaman.github.io/ASTExtractor/](http\n \r\n Executing in Command Line mode\r\n ------------------------------\r\n-Execute as: <pre><code>java -jar ASTExtractor.jar -project=\"path/to/project\" -repr=XML|JSON</code></pre>\r\n-for projects, or as: <pre><code>java -jar ASTExtractor.jar -file=\"path/to/file\" -repr=XML|JSON</code></pre>\r\n-for java files, where <code>repr</code> allows selecting the representation of the tree (default is XML)\r\n+Execute as: <pre><code>java -jar ASTExtractor.jar -project=\"path/to/project\" -properties=\"path/to/propertiesfile\" -repr=XML|JSON</code></pre>\r\n+for projects, or as: <pre><code>java -jar ASTExtractor.jar -file=\"path/to/file\" -properties=\"path/to/propertiesfile\" -repr=XML|JSON</code></pre>\r\n+for java files, where <code>-properties</code> allows setting the location of the properties file (default is no properties so all syntax tree \r\n+nodes are returned) and <code>-repr</code> allows selecting the representation of the tree (default is XML).\r\n \r\n Using as a library\r\n ------------------\r\n-Import the library in your code. Then, you can use it as follows:\r\n+Import the library in your code. Set a location for the properties file using <pre><code>ASTExtractorProperties.setProperties(\"ASTExtractor.properties\");<code><pre>.\r\n+Then, you can use it as follows:\r\n - For folders containing java files:<pre><code>String ast = ASTExtractor.parseFolder(\"path/to/folder/\");</code></pre>\r\n - For java files:<pre><code>String ast = ASTExtractor.parseFile(\"path/to/file.java\");</code></pre>\r\n - For contents of java files (i.e. strings):\r\n@@ -40,7 +42,8 @@ Using in Python\n ---------------\r\n ASTExtractor also has python bindings. Using the python wrapper is simple. At first, the library\r\n has to be imported and the ASTExtractor object has to be initialized given the path to the jar\r\n-of the library:<pre><code>ast_extractor = ASTExtractor(\"path/to/ASTExtractor.jar\")</code></pre>\r\n+of the library and the path to the properties file of the library:\r\n+<pre><code>ast_extractor = ASTExtractor(\"path/to/ASTExtractor.jar\", \"path/to/ASTExtractor.properties\")</code></pre>\r\n After that, you can use it as follows:\r\n - For folders containing java files:<pre><code>ast = ast_extractor.parse_folder(\"path/to/folder/\");</code></pre>\r\n - For java files:<pre><code>ast = ast_extractor.parse_file(\"path/to/file.java\");</code></pre>\r\n@@ -69,9 +72,8 @@ Controlling the output\n ----------------------\r\n An Abstract Syntax Tree can be very complex, including details for every identifier of the code.\r\n In ASTExtractor, the complexity of the tree can be controlled using the ASTExtractor.properties\r\n-file that must reside in the same folder as the ASTExtractor.jar. In this file, the user can\r\n-select the nodes that should not appear in the final tree (<code>OMIT</code>) and the nodes that\r\n-should not be analyzed further, i.e. that should be forced to be leaf nodes (<code>LEAF</code>)\r\n+file. In this file, the user can select the nodes that should not appear in the final tree (<code>OMIT</code>)\r\n+and the nodes that should not be analyzed further, i.e. that should be forced to be leaf nodes (<code>LEAF</code>)\r\n The default options are shown in the following example ASTExtractor.properties file:\r\n <pre><code>LEAF = PackageDeclaration, ImportDeclaration, ParameterizedType, ArrayType, VariableDeclarationFragment\r\n OMIT = Javadoc, Block</code></pre>\r"
+    },
+    {
+      "sha": "3abf9b4380f42a0c11969dab6752efe425b260b8",
+      "filename": "src/astextractor/ASTExtractorProperties.java",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "changes": 41,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FASTExtractorProperties.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FASTExtractorProperties.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastextractor%2FASTExtractorProperties.java?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -0,0 +1,41 @@\n+package astextractor;\r\n+\r\n+import java.util.HashSet;\r\n+\r\n+import helpers.ParseHelpers;\r\n+\r\n+/**\r\n+ * Handles setting the properties for omitting nodes or keeping them as leafs.\r\n+ * \r\n+ * @author themis\r\n+ */\r\n+public class ASTExtractorProperties {\r\n+\r\n+\t/**\r\n+\t * The nodes of the AST that should be printed as they are.\r\n+\t */\r\n+\tpublic static HashSet<String> LEAF = new HashSet<String>();\r\n+\r\n+\t/**\r\n+\t * The nodes of the AST that should be omitted.\r\n+\t */\r\n+\tpublic static HashSet<String> OMIT = new HashSet<String>();\r\n+\r\n+\t/**\r\n+\t * Sets the properties given a properties file.\r\n+\t * \r\n+\t * @param propertiesFile the file that contains the properties.\r\n+\t */\r\n+\tpublic static void setProperties(String propertiesFile) {\r\n+\t\tLEAF.clear();\r\n+\t\tOMIT.clear();\r\n+\t\tfor (String rule : ParseHelpers.parseProperties(propertiesFile)) {\r\n+\t\t\tString[] srule = rule.split(\"=\");\r\n+\t\t\tif (srule[1].equals(\"LEAF\"))\r\n+\t\t\t\tLEAF.add(srule[0]);\r\n+\t\t\telse if (srule[1].equals(\"OMIT\"))\r\n+\t\t\t\tOMIT.add(srule[0]);\r\n+\t\t}\r\n+\t}\r\n+\r\n+}\r"
+    },
+    {
+      "sha": "9c0340c8ff39a7b911a6c4045f373b702c3af193",
+      "filename": "src/astextractor/ASTExtractorTest.java",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FASTExtractorTest.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FASTExtractorTest.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastextractor%2FASTExtractorTest.java?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -15,6 +15,8 @@ public class ASTExtractorTest {\n \t * @param args unused parameter.\n \t */\n \tpublic static void main(String[] args) {\n+\t\tASTExtractorProperties.setProperties(\"ASTExtractor.properties\");\n+\n \t\t// @formatter:off\n \t\tString ast = ASTExtractor.parseString(\"\"\n \t\t         + \"import org.myclassimports;\\n\""
+    },
+    {
+      "sha": "0e0932c4a7eb8a180bb1da32885a179a25ec105a",
+      "filename": "src/astextractor/MainApp.java",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "changes": 18,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FMainApp.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FMainApp.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastextractor%2FMainApp.java?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -14,9 +14,13 @@ public class MainApp {\n \t */\r\n \tprivate static void printHelpMessage() {\r\n \t\tSystem.out.println(\"ASTExtractor: Abstract Syntax Tree Extractor for Java Source Code\\n\");\r\n-\t\tSystem.out.println(\"Run as:\\n java -jar ASTExtractor.jar -project=\\\"path/to/project\\\" -repr=XML|JSON\");\r\n-\t\tSystem.out.println(\"Or as:\\n java -jar ASTExtractor.jar -file=\\\"path/to/file\\\" -repr=XML|JSON\");\r\n-\t\tSystem.out.println(\"where repr allows selecting the representation of the tree (default is XML)\");\r\n+\t\tSystem.out.println(\"Run as:\\n java -jar ASTExtractor.jar -project=\\\"path/to/project\\\"\"\r\n+\t\t\t\t+ \" -properties=\\\"path/to/propertiesfile\\\" -repr=XML|JSON\");\r\n+\t\tSystem.out.println(\"Or as:\\n java -jar ASTExtractor.jar -file=\\\"path/to/file\\\"\"\r\n+\t\t\t\t+ \" -properties=\\\"path/to/propertiesfile\\\" -repr=XML|JSON\");\r\n+\t\tSystem.out.println(\"where -properties allows setting the location of the properties file\"\r\n+\t\t\t\t+ \" (default is no properties so all syntax tree nodes are returned)\");\r\n+\t\tSystem.out.println(\"and -repr allows selecting the representation of the tree (default is XML)\");\r\n \t}\r\n \r\n \t/**\r\n@@ -29,13 +33,15 @@ public static void main(String args[]) {\n \t\t\tString[] arguments = ParseHelpers.parseArgs(args);\r\n \t\t\tString project = arguments[0];\r\n \t\t\tString file = arguments[1];\r\n+\t\t\tString properties = arguments[2];\r\n \t\t\tString repr = \"XML\";\r\n \t\t\tif (project.length() > 0 ^ file.length() > 0) {\r\n-\t\t\t\tif (arguments[2].length() > 0 && !(arguments[2].equals(\"JSON\") || arguments[2].equals(\"XML\")))\r\n+\t\t\t\tif (arguments[3].length() > 0 && !(arguments[3].equals(\"JSON\") || arguments[3].equals(\"XML\")))\r\n \t\t\t\t\tprintHelpMessage();\r\n \t\t\t\telse {\r\n-\t\t\t\t\tif (arguments[2].equals(\"JSON\") || arguments[2].equals(\"XML\"))\r\n-\t\t\t\t\t\trepr = arguments[2];\r\n+\t\t\t\t\tASTExtractorProperties.setProperties(properties);\r\n+\t\t\t\t\tif (arguments[3].equals(\"JSON\") || arguments[3].equals(\"XML\"))\r\n+\t\t\t\t\t\trepr = arguments[3];\r\n \t\t\t\t\tString result = \"\";\r\n \t\t\t\t\tif (project.length() > 0)\r\n \t\t\t\t\t\tresult = ASTExtractor.parseFolder(project, repr);\r"
+    },
+    {
+      "sha": "b757cba6a245d14f0345ad8eec9dc40c5541c151",
+      "filename": "src/astextractor/PythonBinder.java",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "changes": 6,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FPythonBinder.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastextractor%2FPythonBinder.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastextractor%2FPythonBinder.java?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -17,9 +17,13 @@ public class PythonBinder {\n \t * reading the required task in the form of a message and writing the result as a message in the standard output.\r\n \t * The base 64 format is used to send the messages.\r\n \t * \r\n-\t * @param args unused parameter\r\n+\t * @param args the one and only parameter must be the path to the properties file.\r\n \t */\r\n \tpublic static void main(String[] args) {\r\n+\t\t// Set the properties of the extractor\r\n+\t\tString properties = args[0];\r\n+\t\tASTExtractorProperties.setProperties(properties);\r\n+\r\n \t\tScanner scanner = new Scanner(System.in);\r\n \t\twhile (scanner.hasNextLine()) {\r\n \t\t\t// Receive message and decode it\r"
+    },
+    {
+      "sha": "738b937082ba5a3641819afd7ef70ae34bfbed43",
+      "filename": "src/astparser/JavaASTParser.java",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 26,
+      "changes": 30,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastparser%2FJavaASTParser.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fastparser%2FJavaASTParser.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fastparser%2FJavaASTParser.java?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -2,7 +2,6 @@\n \r\n import java.util.ArrayList;\r\n import java.util.Collection;\r\n-import java.util.HashSet;\r\n import java.util.List;\r\n \r\n import org.eclipse.jdt.core.dom.AST;\r\n@@ -11,36 +10,15 @@\n import org.eclipse.jdt.core.dom.CompilationUnit;\r\n import org.eclipse.jdt.core.dom.StructuralPropertyDescriptor;\r\n \r\n-import helpers.ParseHelpers;\r\n+import astextractor.ASTExtractorProperties;\r\n \r\n /**\r\n- * Handles the parsing of java files and the extraction of their Abstract Syntax Trees (ASTs)\r\n+ * Handles the parsing of java files and the extraction of their Abstract Syntax Trees (ASTs).\r\n  * \r\n  * @author themis\r\n  */\r\n public class JavaASTParser {\r\n \r\n-\t/**\r\n-\t * The nodes of the AST that should be printed as they are.\r\n-\t */\r\n-\tprivate static HashSet<String> LEAF = new HashSet<String>();\r\n-\r\n-\t/**\r\n-\t * The nodes of the AST that should be omitted.\r\n-\t */\r\n-\tprivate static HashSet<String> OMIT = new HashSet<String>();\r\n-\r\n-\tstatic {\r\n-\t\tfor (String rule : ParseHelpers\r\n-\t\t\t\t.parseProperties(ParseHelpers.getPropertiesFileLocation(\"ASTExtractor.properties\"))) {\r\n-\t\t\tString[] srule = rule.split(\"=\");\r\n-\t\t\tif (srule[1].equals(\"LEAF\"))\r\n-\t\t\t\tLEAF.add(srule[0]);\r\n-\t\t\telse if (srule[1].equals(\"OMIT\"))\r\n-\t\t\t\tOMIT.add(srule[0]);\r\n-\t\t}\r\n-\t}\r\n-\r\n \t/**\r\n \t * Retrieves the children of an ASTNode.\r\n \t * \r\n@@ -74,9 +52,9 @@ private static ArrayList<ASTNode> getChildren(ASTNode node) {\n \tprivate static void visitNode(StringBuffer result, String indent, ASTNode node) {\r\n \t\tArrayList<ASTNode> children = getChildren(node);\r\n \t\tString nodeType = ASTNode.nodeClassForType(node.getNodeType()).getSimpleName();\r\n-\t\tif (OMIT.contains(nodeType)) {\r\n+\t\tif (ASTExtractorProperties.OMIT.contains(nodeType)) {\r\n \t\t\t// Do nothing\r\n-\t\t} else if (LEAF.contains(nodeType)) {\r\n+\t\t} else if (ASTExtractorProperties.LEAF.contains(nodeType)) {\r\n \t\t\tresult.append(indent + \"<\" + nodeType + \">\");\r\n \t\t\tresult.append(node.toString().trim().replace(\"&\", \"&amp;\").replace(\"<\", \"&lt;\").replace(\">\", \"&gt;\"));\r\n \t\t\tresult.append(\"</\" + nodeType + \">\\n\");\r"
+    },
+    {
+      "sha": "d583cc3add47c1385e2784290952bd644df45c11",
+      "filename": "src/helpers/ParseHelpers.java",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 27,
+      "changes": 40,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fhelpers%2FParseHelpers.java",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/src%2Fhelpers%2FParseHelpers.java",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/src%2Fhelpers%2FParseHelpers.java?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -1,13 +1,9 @@\n package helpers;\r\n \r\n import java.io.File;\r\n-import java.net.URI;\r\n-import java.net.URISyntaxException;\r\n import java.util.ArrayList;\r\n import java.util.List;\r\n \r\n-import astparser.JavaASTParser;\r\n-\r\n /**\r\n  * Helper functions for parsing arguments or properties files.\r\n  * \r\n@@ -34,55 +30,45 @@ public static String[] parseArgs(String[] args) {\n \t\t}\r\n \t\tboolean sproject = false;\r\n \t\tboolean sfile = false;\r\n+\t\tboolean sproperties = false;\r\n \t\tboolean srepr = false;\r\n \t\tString project = \"\";\r\n \t\tString file = \"\";\r\n+\t\tString properties = \"\";\r\n \t\tString repr = \"\";\r\n \t\tfor (String c : col) {\r\n \t\t\tif (c.startsWith(\"-project\")) {\r\n \t\t\t\tsproject = true;\r\n \t\t\t\tsfile = false;\r\n+\t\t\t\tsproperties = false;\r\n \t\t\t\tsrepr = false;\r\n \t\t\t} else if (c.startsWith(\"-file\")) {\r\n \t\t\t\tsproject = false;\r\n \t\t\t\tsfile = true;\r\n+\t\t\t\tsproperties = false;\r\n+\t\t\t\tsrepr = false;\r\n+\t\t\t} else if (c.startsWith(\"-properties\")) {\r\n+\t\t\t\tsproject = false;\r\n+\t\t\t\tsfile = false;\r\n+\t\t\t\tsproperties = true;\r\n \t\t\t\tsrepr = false;\r\n \t\t\t} else if (c.startsWith(\"-repr\")) {\r\n \t\t\t\tsproject = false;\r\n \t\t\t\tsfile = false;\r\n+\t\t\t\tsproperties = false;\r\n \t\t\t\tsrepr = true;\r\n \t\t\t} else {\r\n \t\t\t\tif (sproject)\r\n \t\t\t\t\tproject += c + \" \";\r\n \t\t\t\telse if (sfile)\r\n \t\t\t\t\tfile += c + \" \";\r\n+\t\t\t\telse if (sproperties)\r\n+\t\t\t\t\tproperties += c + \" \";\r\n \t\t\t\telse if (srepr)\r\n \t\t\t\t\trepr += c + \" \";\r\n \t\t\t}\r\n \t\t}\r\n-\t\tproject = project.trim();\r\n-\t\tfile = file.trim();\r\n-\t\treturn new String[] { project.trim(), file.trim(), repr.trim().toUpperCase() };\r\n-\t}\r\n-\r\n-\t/**\r\n-\t * Returns the location of the properties file.\r\n-\t * \r\n-\t * @param filename the filename of the properties file.\r\n-\t * @return the absolute path of the properties file.\r\n-\t */\r\n-\tpublic static String getPropertiesFileLocation(String filename) {\r\n-\t\tURI propertiesFile = null;\r\n-\t\ttry {\r\n-\t\t\tpropertiesFile = JavaASTParser.class.getProtectionDomain().getCodeSource().getLocation().toURI()\r\n-\t\t\t\t\t.resolve(filename);\r\n-\t\t} catch (URISyntaxException e) {\r\n-\t\t\te.printStackTrace();\r\n-\t\t}\r\n-\t\tif (propertiesFile != null && new File(propertiesFile.getPath()).exists())\r\n-\t\t\treturn propertiesFile.getPath();\r\n-\t\telse\r\n-\t\t\treturn filename;\r\n+\t\treturn new String[] { project.trim(), file.trim(), properties.trim(), repr.trim().toUpperCase() };\r\n \t}\r\n \r\n \t/**\r"
+    },
+    {
+      "sha": "b6285605342db59eef3771c85b019da29718b55e",
+      "filename": "srcpy/astextractor.py",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "changes": 10,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/srcpy%2Fastextractor.py",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/srcpy%2Fastextractor.py",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/srcpy%2Fastextractor.py?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -9,13 +9,14 @@ class _ASTExtractor(object):\n \tand opening pipes to the standard input and standard output so that messages can be sent and received.\r\n \tInstead of using this class, it is highly recommended to use the abstracted ASTExtractor class.\r\n \t\"\"\"\r\n-\tdef __init__(self, path_to_ASTExtractor_jar):\r\n+\tdef __init__(self, path_to_ASTExtractor_jar, path_to_ASTExtractor_properties):\r\n \t\t\"\"\"\r\n \t\tInitializes this inner extractor.\r\n \t\t\r\n \t\t:param path_to_ASTExtractor_jar: the path to the ASTExtractor jar.\r\n+\t\t:param path_to_ASTExtractor_properties: the path to the ASTExtractor properties file.\r\n \t\t\"\"\"\r\n-\t\tself.cmd = ['java', '-cp', path_to_ASTExtractor_jar, 'astextractor.PythonBinder']\r\n+\t\tself.cmd = ['java', '-cp', path_to_ASTExtractor_jar, 'astextractor.PythonBinder', path_to_ASTExtractor_properties]\r\n \t\tself.proc = subprocess.Popen(self.cmd, stdin=PIPE, stdout=PIPE, stderr=STDOUT)\r\n \t\tself.nummessages = 0\r\n \t\tline = self.send_message(\"START_OF_TRANSMISSION\")\r\n@@ -75,13 +76,14 @@ class ASTExtractor(_ASTExtractor):\n \t\"\"\"\r\n \tClass used as a python binding to the ASTExtractor library. It contains functions for parsing java code to AST.\r\n \t\"\"\"\r\n-\tdef __init__(self, path_to_ASTExtractor_jar):\r\n+\tdef __init__(self, path_to_ASTExtractor_jar, path_to_ASTExtractor_properties):\r\n \t\t\"\"\"\r\n \t\tInitializes this AST Extractor.\r\n \t\t\r\n \t\t:param path_to_ASTExtractor_jar: the path to the ASTExtractor jar\r\n+\t\t:param path_to_ASTExtractor_properties: the path to the ASTExtractor properties file.\r\n \t\t\"\"\"\r\n-\t\tsuper(ASTExtractor, self).__init__(path_to_ASTExtractor_jar)\r\n+\t\tsuper(ASTExtractor, self).__init__(path_to_ASTExtractor_jar, path_to_ASTExtractor_properties)\r\n \r\n \tdef parse_string(self, file_contents, representation=\"XML\"):\r\n \t\t\"\"\"\r"
+    },
+    {
+      "sha": "1c196dde22a7952019e68ebc8cc9c395dabf0365",
+      "filename": "srcpy/astextractor_test.py",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/thdiaman/ASTExtractor/blob/7177690960106ba4c23ceb7885b8828e7e60cba6/srcpy%2Fastextractor_test.py",
+      "raw_url": "https://github.com/thdiaman/ASTExtractor/raw/7177690960106ba4c23ceb7885b8828e7e60cba6/srcpy%2Fastextractor_test.py",
+      "contents_url": "https://api.github.com/repos/thdiaman/ASTExtractor/contents/srcpy%2Fastextractor_test.py?ref=7177690960106ba4c23ceb7885b8828e7e60cba6",
+      "patch": "@@ -2,7 +2,7 @@\n \r\n if __name__ == '__main__':\r\n \t'''Used as a test for the python bindings'''\r\n-\tast_extractor = ASTExtractor(\"../target/ASTExtractor-0.1.jar\")\r\n+\tast_extractor = ASTExtractor(\"../target/ASTExtractor-0.1.jar\", \"../ASTExtractor.properties\")\r\n \tast = ast_extractor.parse_string(\r\n \t\t\t\"import org.myclassimports;\\n\" + \r\n \t\t\t\"\\n\" + \r"
+    }
+  ]
+}

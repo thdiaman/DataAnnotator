@@ -1,0 +1,11 @@
+{
+   "classes": {
+      "1": "Salty",
+      "2": "Sweet",
+      "0": "Non-annotated"
+   },
+   "annotations": {
+      "Recipe15": "2",
+      "Recipe17": "1"
+   }
+}
