@@ -3,8 +3,8 @@ import json
 #import codecs
 from flask import Flask, render_template, request
 from pygments import lexers, highlight
-from pygments.formatters import HtmlFormatter
-from properties import datapath, schemapath, classespath, annotationspath, nextpage
+from pygments.formatters import HtmlFormatter  # @UnresolvedImport
+from properties import datapath, nextpage
 formatter = HtmlFormatter()
 lex = lexers.get_lexer_by_name("java")
 
@@ -16,6 +16,8 @@ def parse_value(value, valuetype):
 		return highlight(value, lex, formatter)
 	elif valuetype == "URL":
 		return "<a href=\"" + value + "\" target=\"_blank\">" + value + "</a>"
+	elif valuetype == "PNG":
+		return "<img src=\"data:image/jpeg;base64," + value + "\">"
 	else:
 		return value
 
@@ -36,23 +38,25 @@ def parse_filedata_to_schema(filedata, schema, newfiledata, key=""):
 
 def read_data():
 	# Read schema
-	with open(schemapath) as infile:
+	with open(os.path.join(datapath, "schema.json")) as infile:
 		schema = json.load(infile)
 
 	# Read files	
 	files = []
-	for afile in sorted(os.listdir(datapath)):
-		with open(os.path.join(datapath, afile)) as infile:
+	filespath = os.path.join(datapath, "files")
+	for afile in sorted(os.listdir(filespath)):
+		with open(os.path.join(filespath, afile)) as infile:
 			filedata = json.load(infile)
 			newfiledata = {}
 			parse_filedata_to_schema(filedata, schema, newfiledata)
 			files.append(newfiledata)
 
 	# Read classes
-	with open(classespath) as infile:
+	with open(os.path.join(datapath, "classes.json")) as infile:
 		classes = json.load(infile)["classes"]
 
 	# Read annotations
+	annotationspath = os.path.join(datapath, "annotations.json")
 	if not os.path.exists(annotationspath):
 		with open(annotationspath, 'w') as outfile:
 			json.dump({"classes": {}, "annotations": {}}, outfile)
@@ -78,7 +82,7 @@ def write_annotations(annotations):
 	for annkey, annvalue in annotations["annotations"].items():
 		if annvalue != "0":
 			newannotations["annotations"][annkey] = annvalue
-	with open(annotationspath, 'w') as outfile:
+	with open(os.path.join(datapath, "annotations.json"), 'w') as outfile:
 		json.dump(newannotations, outfile, indent = 3)
 
 app = Flask(__name__)
