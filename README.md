@@ -5,7 +5,7 @@ A data annotator that can be used to annotate different types of datasets.
 All datasets to be annotated must have a specific file/folder structure.  
 In specific, a dataset must be inside a folder with the name of the dataset, which should include:  
 - a subfolder named `files`, which contains the data instances to be annotated. All data instances inside the files subfolder must be in JSON format.
-- a file named `schema.json` that allows defining the schema of the data instances. The schema can have all JSON elements (arrays and nested objects), while the accepted data types include `ID`, `STRING`, `NUMBER`, `URL`, `CODE` (source code), `PNG` (image in base64 format). The schema must have **exactly one ID**.
+- a file named `schema.json` that allows defining the schema of the data instances. The schema can have all JSON elements (arrays and nested objects), while the accepted data types include `ID`, `STRING`, `NUMBER`, `URL`, `CODE` (source code), `IMAGE` (image in base64 format). The schema must have **exactly one ID**.
 - a file named `classes.json` that allows defining the classes to annotate  the data instances. 
 
 Upon setting this structure, make sure to set the dataset folder in file `properties.py`. After that, the app can be executed using `python -m flask --debug --app run run`
