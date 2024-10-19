@@ -15,7 +15,7 @@ def parse_value(value, valuetype):
 		return highlight(value, lex, formatter)
 	elif valuetype == "URL":
 		return "<a href=\"" + value + "\" target=\"_blank\">" + value + "</a>"
-	elif valuetype == "PNG":
+	elif valuetype == "IMAGE":
 		return "<img src=\"data:image/jpeg;base64," + value + "\">"
 	else:
 		return value
